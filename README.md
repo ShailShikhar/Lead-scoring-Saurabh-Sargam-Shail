@@ -4,15 +4,14 @@ company which is an online course seller. Company needs to
 know the factors which can identify the potential buyers, so 
 that sales team can target them. All the information related 
 to the past buyers and their conversion is provided. 
-DATA PROVIDED :-
+# DATA PROVIDED :-
 1. Leads.csv 
 2. Leads Data Dictionary.csv 
 3. The Target Variable which is ‘Converted’ which tells 
 whether a past lead converted or not. 0 indicates that 
 it was not converted whereas 1 indicates that it was 
 converted . 
-The following are the steps taken to build an 
-efficient model which are highlighted below : 
+#The following are the steps taken to build an efficient model which are highlighted below : 
 Data Cleaning: There were many SELECT values which are 
 considered as missing ones . I f the missing values counts is 
 more than 40% in a column, then drop the column. Dropping 
@@ -24,7 +23,7 @@ EDA (Exploratory Data Analysis): Created the list for
 categorical and continuous data type separately for 
 easy graph plotting and analysis. There were many 
 columns having 99% of single value, dropped them (exDo not call). Outliers were not found.
-METHODS TO PERFORM EDA :-
+# METHODS TO PERFORM EDA :-
 1.UNIVARIATE ANALYSIS
 2.BIVARIATE ANALYSIS
 3.MULTIVARIATE ANALYSIS
@@ -39,7 +38,7 @@ approach to select feature. RFE is used to select 15 features
 and then manually features are dropped by analysing p-value 
 (less than 0.05) and VIF (less than 5). Finally, 11 features are 
 obtained in Model5.
-Final Features are as follow : 
+# Final Features are as follow : 
 1. Lead Origin_Lead Add Form 
 2. Do Not Email_Yes
 3. Last Activity_Olark Chat Conversation 
@@ -71,8 +70,7 @@ SMS sent.
 horizon’,’Will revert after reading mail’, ‘In touch with EINS’. 
 • Through EDA we can see the ‘time spent in websites’, ‘total 
 visits’, ‘lead source as Google’ seems to give fruitful result. 
-X Education company can refer to above 
-factors and go for potential buyers.
+# X Education company can refer to above factors and go for potential buyers.
 By – Saurabh Taneja 
- Sargam Agarwal 
- Shail Shikhar…..
+Sargam Agarwal 
+Shail Shikhar…..
