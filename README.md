@@ -18,22 +18,22 @@ more than 40% in a column, then drop the column. Dropping
 columns with unique value like Prospect ID and lead ID. 
 Dropping columns with only one value (ex-Magazine). 
 Imputing missing values with mode for categorical data and 
-median for continuous data. 
-EDA (Exploratory Data Analysis): Created the list for 
+median for continuous data.
+# EDA (Exploratory Data Analysis): Created the list for 
 categorical and continuous data type separately for 
 easy graph plotting and analysis. There were many 
-columns having 99% of single value, dropped them (exDo not call). Outliers were not found.
+columns having 99% of single value, dropped them (ex-Do not call). Outliers were not found.
 # METHODS TO PERFORM EDA :-
 1.UNIVARIATE ANALYSIS
 2.BIVARIATE ANALYSIS
 3.MULTIVARIATE ANALYSIS
-Dummy variables: For logistic regression model all 
+# Dummy variables: For logistic regression model all 
 categorical data are split into dummy variables to 
 change the values to numeric form (1,0). 
-Train –Test data: Data is split into train and test dataset 
+# Train –Test data: Data is split into train and test dataset 
 by 70:30 ratio. Train and test data are normalised using 
 standard scaler. 
-Feature selection and Model building: Using hybrid 
+# Feature selection and Model building: Using hybrid 
 approach to select feature. RFE is used to select 15 features 
 and then manually features are dropped by analysing p-value 
 (less than 0.05) and VIF (less than 5). Finally, 11 features are 
@@ -50,16 +50,16 @@ obtained in Model5.
 9. Tags_Will revert after reading the email 
 10.Tags_in touch with EINS 
 11.Last Notable Activity_SMS Sent 
-Model evaluation: Predicting from train data and 
+# Model evaluation: Predicting from train data and 
 evaluating Accuracy, Recall and Precision. Plotting ROC curve 
 to check the model. Checked the metrices at cutoff value 0.35 
 and 0.38. We got Optimum cutoff at 0.35. As stated, the TPR 
 is maintained above 80% 
-Prediction on test set :- Normalising data in test set. 
+# Prediction on test set :- Normalising data in test set. 
 Predicting from test data and evaluating Accuracy, Recall and 
 Precision. On comparing the metrics from test and train data 
 set were almost same depicting the model efficiency. 
-Key learnings to identify the hot leads are: 
+# Key learnings to identify the hot leads are: 
 • When the customer is a working professional, it has high 
 chance of conversion. 
 • When the Lead origin is Lead add form. 
